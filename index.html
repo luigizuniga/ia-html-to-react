@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panel de Usuario 1.0 HTML Version</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Vite + React</title>
   </head>
   <body>
-    <div id="app">
-      <h1>Gestión de Usuarios</h1>
-      <button id="loadUsersBtn">Cargar Usuarios</button>
-      <div id="loadingMessage" class="hidden">Cargando...</div>
-      <ul id="userList">
-        <p id="errorMessage" class="hidden error">
-          Hubo un error al cargar los usuarios.
-        </p>
-      </ul>
-    </div>
-    <script src="./script.js" defer></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
